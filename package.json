@@ -1,0 +1,33 @@
+{
+  "name": "node-telnet-client",
+  "version": "1.0.0-1",
+  "description": "nodejs http server running simple telnet client",
+  "keywords": [
+    "node telnet client",
+    "Node.js",
+    "application",
+    "node-telnet-client"
+  ],
+  "author": {
+    "name": "Emanuele Tido",
+    "email": "tidoemanuelezon@gmail.com",
+    "url": "http://localhost/telnet"
+  },
+  "homepage": "http://localhost/telnet",
+  "repository": {
+    "type": "git",
+    "url": "https://etido/etido/telnet"
+  },
+  "engines": {
+    "node": ">= 0.10.12",
+    "npm": ">= 1.2.32"
+  },
+  "dependencies": {
+    "express": "3.2.6"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": false,
+  "main": "server.js",
+  "subdomain": "node-telnet-client"
+}
