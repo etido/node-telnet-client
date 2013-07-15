@@ -16,7 +16,7 @@
   "homepage": "http://localhost/telnet",
   "repository": {
     "type": "git",
-    "url": "https://etido/etido/telnet"
+    "url": "https://github.com/etido/node-telnet-client"
   },
   "engines": {
     "node": ">= 0.10.12",
