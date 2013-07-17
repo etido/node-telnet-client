@@ -26,5 +26,5 @@
 
 ## Try the demo site:
 <pre>
-<a href="http://node-telnet-client.eu01.aws.af.cm/telnet?ip=www.google.com&port=80" title="Mouseover Description">Demo</a>
+<a href="http://node-telnet-client.eu01.aws.af.cm/telnet?ip=www.google.com&port=80" title="Mouseover Description">Demo: a telnet to google server</a>
 </pre>

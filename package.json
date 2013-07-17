@@ -1,6 +1,6 @@
 {
   "name": "node-telnet-client",
-  "version": "1.0.0-5",
+  "version": "1.0.0-6",
   "description": "nodejs http server running simple telnet client",
   "keywords": [
     "node telnet client",
