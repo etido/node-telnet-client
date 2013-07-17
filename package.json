@@ -1,6 +1,6 @@
 {
   "name": "node-telnet-client",
-  "version": "1.0.0-6",
+  "version": "1.0.0-7",
   "description": "nodejs http server running simple telnet client",
   "keywords": [
     "node telnet client",
@@ -11,9 +11,9 @@
   "author": {
     "name": "Emanuele Tido",
     "email": "tidoemanuele@gmail.com",
-    "url": "http://localhost/telnet"
+    "url": "http://pt.linkedin.com/pub/emanuele-tido/23/1b3/b77/"
   },
-  "homepage": "http://localhost/telnet",
+  "homepage": "http://node-telnet-client.eu01.aws.af.cm/telnet?ip=www.google.com&port=80",
   "repository": {
     "type": "git",
     "url": "https://github.com/etido/node-telnet-client"
