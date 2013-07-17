@@ -14,7 +14,7 @@
 
 2. Invoke telnet client:
 <pre>
- http://NodeServerIp/telnet?ip=212.x.x.x&port=80
+ http://NodeServerIp/telnet?ip=www.google.com&port=80
 </pre>
 
 3. Check the result:
@@ -22,4 +22,9 @@
  {"Error": "connect ETIMEDOUT","HasError": true,"Listening": false,"ElapsedTime": "21006.4 ms"}
  or
  {"Error": null,"HasError": false,"Listening": true,"ElapsedTime": "103.5 ms"}
+</pre>
+
+## Try the demo site:
+<pre>
+http://node-telnet-client.eu01.aws.af.cm/telnet?ip=www.google.com&port=80
 </pre>
