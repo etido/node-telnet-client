@@ -22,10 +22,7 @@ app.configure(function () {
             var precision = 1; // 3 decimal places
             var diff = process.hrtime(req.starttime);
             var elapsed = ((diff[0] * 1e9) + diff[1]) / 1000000;
-            req.elapsedtime = elapsed.toFixed(precision);
-            res.writeHead(200, {
-                'Content-Type': 'application/json'
-            });
+            req.elapsedtime = elapsed.toFixed(precision);         
 
             res.end('{"Error": ' + '"' + err.message + '"' + ',"HasError": true,"Listening": false,"ElapsedTime": ' + '"' + req.elapsedtime + ' ms"}');
 
@@ -53,10 +50,7 @@ app.get('/telnet', [SetupRequest], function (req, res) {
                 req.elapsedtime = elapsed.toFixed(precision);
                 req.starttime = process.hrtime(); // reset the timer   
 
-
-                res.writeHead(200, {
-                    'Content-Type': 'application/json'
-                });
+             
 
                 res.end('{"Error": null,"HasError": false,"Listening": true,"ElapsedTime": ' + '"' + req.elapsedtime + ' ms"}');
                 console.log('data:', data.toString());
@@ -71,10 +65,7 @@ app.get('/telnet', [SetupRequest], function (req, res) {
             });
         });
 
-    } catch (err2) {
-        res.writeHead(200, {
-            'Content-Type': 'application/json'
-        });
+    } catch (err2) {      
         var errormessage = err2.message;
         var precision = 1; // 3 decimal places
         var diff = process.hrtime(req.starttime);
